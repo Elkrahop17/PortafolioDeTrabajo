@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Diego</title>
+</head>
+<body>
+    <!--Encabezado-->
+    <header>
+        <h1><span class="cuadro"></span>DIEGO</h1>
+        <nav id="nav">
+            <ul>
+                <li>
+                    <a href="#inicio">Inicio</a>
+                </li>
+                <li>
+                    <a href="#sobremi">Sobre mí</a>
+                </li>
+                <li>
+                    <a href="#proyectos">Proyectos</a>
+                </li>
+                <li>
+                    <a href="#clientes">Clientes</a>
+                </li>
+                <li>
+                    <a href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        <button onclick="abrirCerrarMenu()"><i class="fa-solid fa-bars"></i></button>
+    </header>
+
+    <!-- sección INICIO-->
+    <section id="inicio">
+        <div class="contenido">
+            <div class="fila">
+                <div class="col">
+                    <div class="ui">
+                        DEV <span class="circulo"></span>
+                    </div>
+                    <div class="info">
+                        <h2>Hola Soy Diego <br>Ingeniero Informatico</h2>
+                    </div>
+                    <div class="vertical txt">EXPERIENCIA</div>
+                </div>
+                <div class="col">
+                    <div class="circulo-principal"></div>
+                    <img src="img/foto_inicio (1).png" alt="inicio" height="800px">
+                </div>
+                <div class="col derecha">
+                    <h3>ME ESPECIALIZO EN CREAR PRODUCTOS DE ALTA CALIDAD</h3>
+                    <p>Busco que los clientes siempre queden contentos con sus pedidos</p>
+                    <div class="botones">
+                        <button class="btn-primary">Proyectos</button>
+                        <button class="btn-secondary">Contacto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sección SOBRE MI-->
+
+    <section id="sobremi">
+        <div class="contenido">
+            <div class="fila">
+                <div class="col">
+                    <h2 class="titulo-seccion">Sobre <span class="resaltado">mí</span></h2>
+                    <p>Soy estudiante de Ingeniería en Informática en el Instituto Duoc UC, donde actualmente curso mi cuarto semestre. 
+                        Mi objetivo profesional es especializarme en Desarrollo Web, Bases de Datos e Inteligencia Artificial, 
+                        áreas que considero fundamentales para el avance tecnológico y la creación de soluciones innovadoras. </p>
+
+                    <div class="skills">
+                        <p><span class="punto"></span>Desarrollo Web</p>
+                        <div class="barra-skill">
+                            <div class="progreso dw" id="dw">
+                                <span>95%</span>
+                            </div>
+                        </div>
+
+                        <p><span class="punto"></span>Base de Datos</p>
+                        <div class="barra-skill">
+                            <div class="progreso db" id="db">
+                                <span>90%</span>
+                            </div>
+                        </div>
+
+                        <p><span class="punto"></span>Diseño Gráfico </p>
+                        <div class="barra-skill">
+                            <div class="progreso dg" id="dg">
+                                <span>80%</span>
+                            </div>
+                        </div>
+
+
+                        <p><span class="punto"></span>Ciberseguridad</p>
+                        <div class="barra-skill">
+                            <div class="progreso cs" id="cs">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn-primary">Descargar CV</button>
+                </div>
+                <div class="col">
+                    <div class="circulo-principal"></div>
+                    <img src="img/Sobre-Mi.png" alt="sobre-mi" height="450px" width="590px">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sección PROYECTOS-->
+
+    <section id="proyectos">
+        <div class="contenido">
+            <h2 class="titulo-seccion">Proyectos <span class="resaltado">destacados</span></h2>
+            <div class="fila">
+                <div class="col">
+                    <div class="numero-proyecto">
+                        .01
+                    </div>
+                    <h3 class="titulo-proyecto">PROYECTO <span class="resaltado">01</span></h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, libero voluptate.</p>
+                    <button class="btn-primary">LEER MÁS</button>    
+                </div>
+                <div class="col">
+                    <div class="numero-proyecto">
+                        .02
+                    </div>
+                    <h3 class="titulo-proyecto">PROYECTO <span class="resaltado">02</span></h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, libero voluptate.</p>
+                    <button class="btn-primary">LEER MÁS</button>
+                </div>
+                <div class="col">
+                    <div class="numero-proyecto">
+                        .03
+                    </div>
+                    <h3 class="titulo-proyecto">PROYECTO <span class="resaltado">03</span></h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, libero voluptate.</p>
+                    <button class="btn-primary">LEER MÁS</button>
+                </div>
+                <div class="col">
+                    <div class="numero-proyecto">
+                        .04
+                    </div>
+                    <h3 class="titulo-proyecto">PROYECTO <span class="resaltado">04</span></h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, libero voluptate.</p>
+                    <button class="btn-primary">LEER MÁS</button>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <div class="numero-proyecto">
+                        .05
+                    </div>
+                    <h3 class="titulo-proyecto">PROYECTO <span class="resaltado">05</span></h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, libero voluptate.</p>
+                    <button class="btn-primary">LEER MÁS</button>    
+                </div>
+                <div class="col">
+                    <div class="numero-proyecto">
+                        .06
+                    </div>
+                    <h3 class="titulo-proyecto">PROYECTO <span class="resaltado">06</span></h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, libero voluptate.</p>
+                    <button class="btn-primary">LEER MÁS</button>
+                </div>
+                <div class="col">
+                    <div class="numero-proyecto">
+                        .07
+                    </div>
+                    <h3 class="titulo-proyecto">PROYECTO <span class="resaltado">07</span></h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, libero voluptate.</p>
+                    <button class="btn-primary">LEER MÁS</button>
+                </div>
+                <div class="col">
+                    <div class="numero-proyecto">
+                        .08
+                    </div>
+                    <h3 class="titulo-proyecto">PROYECTO <span class="resaltado">08</span></h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, libero voluptate.</p>
+                    <button class="btn-primary">LEER MÁS</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sección NUMEROS -->
+    <section id="numeros">
+        <div class="contenido">
+            <div class="fila">
+                <div class="col">
+                    <span class="mas">+</span>
+                    <div class="num" id="cantProyectos">0</div>
+                    <div class="texto">
+                        <strong>PROYECTOS</strong> <br> TERMINADOS
+                    </div>
+                </div>
+    
+                <div class="col">
+                    <span class="mas">+</span>
+                    <div class="num" id="cantClientes">0</div>
+                    <div class="texto">
+                        <strong>CLIENTES</strong> <br> SASTISFECHOS
+                    </div>
+                </div>
+    
+                <div class="col">
+                    <span class="mas">+</span>
+                    <div class="num" id="cantCURSOS">0</div>
+                    <div class="texto">
+                        <strong>CURSOS</strong> <br> EN LINEA
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- sección CLIENTES -->
+    <section id="clientes">
+        <div class="contenido">
+            <div class="fila">
+                <div class="col">
+                    <img src="img/seccion-clientes.png" alt="">
+                </div>
+                <div class="col col-cliente">
+                    <h2 class="titulo-seccion">Clientes <br> <span class="resaltado">sastisfechos</span></h2>
+                    <div class="clientes">
+                        <img src="img/cliente-1.png" alt="">
+                        <div class="info-cliente">
+                            <h3>Camilo B.</h3>
+                            <div class="estrellas">
+                                <i class="fa-solid fa-star relleno"></i>
+                                <i class="fa-solid fa-star relleno"></i>
+                                <i class="fa-solid fa-star relleno"></i>
+                                <i class="fa-solid fa-star relleno"></i>
+                                <i class="fa-solid fa-star "></i>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aliquid magni ea iusto fuga facere animi! Facere inventore nostrum quod minus, soluta neque dolorum sapiente nihil modi expedita? In, fugiat?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="clientes">
+                        <img src="img/Leyton.png" alt="">
+                        <div class="info-cliente">
+                            <h3>Miguel L.</h3>
+                            <div class="estrellas">
+                                <i class="fa-solid fa-star relleno"></i>
+                                <i class="fa-solid fa-star relleno"></i>
+                                <i class="fa-solid fa-star relleno"></i>
+                                <i class="fa-solid fa-star relleno"></i>
+                                <i class="fa-solid fa-star "></i>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aliquid magni ea iusto fuga facere animi! Facere inventore nostrum quod minus, soluta neque dolorum sapiente nihil modi expedita? In, fugiat?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="clientes">
+                        <img src="img/Saez.png" alt="">
+                        <div class="info-cliente">
+                            <h3>Alexander S.</h3>
+                            <div class="estrellas">
+                                <i class="fa-solid fa-star relleno"></i>
+                                <i class="fa-solid fa-star relleno"></i>
+                                <i class="fa-solid fa-star relleno"></i>
+                                <i class="fa-solid fa-star relleno"></i>
+                                <i class="fa-solid fa-star "></i>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aliquid magni ea iusto fuga facere animi! Facere inventore nostrum quod minus, soluta neque dolorum sapiente nihil modi expedita? In, fugiat?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sección CONTACTO -->
+    <section id="contacto">
+        <img src="img/contacto.png" alt="" class="img-subs">
+        <div class="contenido">
+            <form action="">
+                <h2 class="titulo-seccion">Contactame <br> <span class="resaltado">ahora mismo</span></h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi sint illum asperiores eaque, 
+                dicta eum delectus consectetur ut amet fuga commodi quia quaerat officia nulla? Nemo molestiae commodi quod deserunt?</p>
+                <input type="text" placeholder="Nombre">
+                <input type="text" placeholder="Email">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <button class="btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- sección FOOTER -->
+    <footer>
+        <div class="contenido">
+            <div class="col">
+                <h3>Diego Dev</h3>
+                <ul>
+                    <li><a href="#">Historia</a></li>
+                    <li><a href="#">Equipo de trabajo</a></li>
+                    <li><a href="#">Terminos y condiciones</a></li>
+                    <li><a href="#">Politicas de privacidad</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Otras cosas</h3>
+                <ul>
+                    <li><a href="#">Noticias e historias</a></li>
+                    <li><a href="#">Publicaciones</a></li>
+                    <li><a href="#">Marketing</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                </ul>
+            </div>
+            <div class="col3">
+                <h3 class="titulo-footer">Subscribite para recibir <br>el boletin de noticias</h3>
+                <input type="text" value="" placeholder="Email">
+                <div class="redes">
+                    <p>Seguime!</p>
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
